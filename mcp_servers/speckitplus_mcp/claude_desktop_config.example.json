@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "speckitplus": {
+      "command": "node",
+      "args": [
+        "/ABSOLUTE/PATH/TO/mcp-server/mcp_servers/speckitplus_mcp/dist/index.js"
+      ],
+      "env": {}
+    }
+  }
+}

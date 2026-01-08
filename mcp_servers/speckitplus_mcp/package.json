@@ -1,0 +1,33 @@
+{
+  "name": "speckitplus-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that exposes SpecKit Plus commands as prompts for any AI agent/IDE",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "speckitplus-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc && node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "speckit",
+    "spec-driven-development",
+    "prompts",
+    "ai-agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
