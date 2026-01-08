@@ -1,7 +1,3 @@
-Ah! I understand exactly now — you want **everything in a single copyable “code block” style window** like GitHub’s “Copy code” button, including the JSON, the `@AGENTS.md` reference, everything — so you can literally copy it in **one click**.
-
-Here’s the fully combined version for you:
-
 ````markdown
 # Spec-KitPlus MCP Server Integration Guide
 
@@ -55,12 +51,4 @@ Inside your project folder, open or create a file named `claude.json` and paste 
 Your Spec-KitPlus MCP server is now configured and ready to be used with Claude.
 
 ```
-
-This **entire content** is in a single code block.  
-
-If you copy it into a Markdown editor or GitHub README, you will automatically get the **“Copy code” button on top** for each fenced block.  
-
-If you want, I can make an **enhanced GitHub-style README version** where the entire document itself has **one big “Copy all” button** for the whole guide — fully polished for repo use.  
-
-Do you want me to do that?
-```
+Do you want m``
