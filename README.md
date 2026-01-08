@@ -1,27 +1,25 @@
-Spec-KitPlus MCP Server Integration Guide
+# Spec-KitPlus MCP Server Integration Guide
 
 Follow these steps to integrate the Spec-KitPlus MCP server with Claude and wire it into your project correctly.
 
-📁 Step 1: Copy MCP Server to Project Root
+---
 
-Copy the MCP server folder into your project root directory.
+## 📁 Step 1: Copy MCP Server to Project Root
 
-Make sure the server build exists at the path you will reference later (e.g. dist/index.js).
+Copy the **MCP server folder** into your project root directory.
 
-📄 Step 2: Copy claude.md Content
+Make sure the server build exists at the path you will reference later (for example: `dist/index.js`).
 
-Copy the provided claude.md content into your project.
+---
 
-Integrate the content of AGENTS.md using Claude.
+## 📄 Step 2: Copy `claude.md` Content
 
-Inside claude.md, explicitly reference AGENTS.md by adding:
-
-@AGENTS.md
-
-
+- Copy the provided `claude.md` content into your project.
+- Use Claude to integrate the content of `AGENTS.md`.
+- Inside `claude.md`, explicitly reference `AGENTS.md` by adding:
 This tells Claude to load and reason over the agent specifications.
 
-⚙️ Step 3: Configure claude.json
+#⚙️ Step 3: Configure claude.json
 
 Inside your project folder, open or create a file named claude.json and paste the following configuration:
 
@@ -35,3 +33,6 @@ Inside your project folder, open or create a file named claude.json and paste th
     }
   }
 }
+
+```md
+@AGENTS.md
